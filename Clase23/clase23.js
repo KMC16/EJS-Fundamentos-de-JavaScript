@@ -12,8 +12,7 @@ Persona.prototype.saludar = function () {
     console.log(`hola me llamo: ${this.nombre} ${this.apellido} `)
 }
 
-Persona.prototype.soyalto = function () {
-  return this.estatura > 1.60
-}
-
+Persona.prototype.soyalto = () => {
+  debugger
+  this.estatura > 1.60
 }
