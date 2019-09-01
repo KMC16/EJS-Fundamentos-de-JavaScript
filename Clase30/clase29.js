@@ -1,6 +1,10 @@
 const API_URL = 'https://swapi.co/api/'
 const PEOPLE_URL = 'people/:id'
+
+
+
 const Opts = {crossDomain: true}
+
 const onResponse = function (persona) {
 console.log(`Hola, Yo soy ${persona.name}`)
 }
