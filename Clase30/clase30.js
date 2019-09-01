@@ -20,7 +20,7 @@ function obtenerPersonaje(id , callback) {
 }
 
 obtenerPersonaje(1, function () {
-  obtenerPersonaje(2,function () {
+  obtenerPersonaje(2, function () {
     obtenerPersonaje(3)
   })
 })
