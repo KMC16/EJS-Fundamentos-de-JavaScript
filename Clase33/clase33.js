@@ -20,7 +20,7 @@ function obtenerPersonaje(id) {
 
 }
 
-function onError(id){
+onError = (id) =>{
   console.log(`Sucedio un error al obtener el personaje ${id}`);
 }
 obtenerPersonaje(1)
