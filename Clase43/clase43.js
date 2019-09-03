@@ -17,6 +17,6 @@ function saludar(saludo='Hola') {
 // const saludarKevin= saludar.bind(kevin)
 // const saludarKaren= saludar.bind(karen)
 // setTimeout(saludar.bind(kevin,'hola quiuvo'),1000)
-
 // saludar.call(kevin,'hola quiuvo')
+
 saludar.apply(kevin, ['Hola,Quiuvo'])
